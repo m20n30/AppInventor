@@ -1,0 +1,56 @@
+speed Infinity
+button 'лето', ->
+  box yellow, 5000
+  jumpto -332, -285
+  pen brown, 10
+  fd 75
+  dot orange, 50
+  jumpto 303, -290
+  pen brown, 10
+  fd 75
+  dot orange, 50
+  jumpto -140, -287
+  pen blue, 10
+  fd 50
+  rt 90
+  fd 100
+  rt 90
+  fd 50
+  rt 90
+  fd 100
+  fill blue
+button 'зима', ->
+  cs()
+  box white, 5000
+  jumpto -332, -285
+  pen brown, 10
+  fd 75
+  dot aqua, 50
+  jumpto -238, -293
+  pen brown, 10
+  fd 75
+  dot aqua, 50
+  pen aqua, 10
+  jumpto -140, -287
+  rt 90
+  fd 200
+  lt 90
+  fd 100
+  lt 90
+  fd 200
+  lt 90
+  fd 100
+  fill aqua
+  jumpto 303, -290
+  rt 90
+  rt 90
+  pen brown, 10
+  fd 75
+  dot aqua, 50
+  turnto 90
+  pu()
+  bk 75
+  lt 90
+  dot aqua, 50
+  pen brown, 10
+  bk 7
